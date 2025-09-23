@@ -3,32 +3,42 @@ Flask shopping cart project showcasing e-commerce basics and research on AI-powe
 
 ## System Overview
 
-Backend: Flask micro-framework (main.py) with modular routing and session/cart handling.
+1. Backend: Flask micro-framework (main.py) with modular routing and session/cart handling.
 
-Database: SQLite (database.db) accessed via database.py for CRUD operations (products, cart, etc.).
+2. Database: SQLite (database.db) accessed via database.py for CRUD operations (products, cart, etc.).
 
-Frontend: Jinja2 templates (/templates) with static assets (/static) for CSS, JS, and images.
+3. Frontend: Jinja2 templates (/templates) with static assets (/static) for CSS, JS, and images.
 
-AI Component: ChatBot.py provides chatbot functionality, supported by text resources (chatbot.txt).
+4. AI Component: ChatBot.py provides chatbot functionality, supported by text resources (chatbot.txt).
 
 ## Key Technical Features
 
-MVC-like separation: routes, logic, templates, and static files are modular.
+1. MVC-like separation: routes, logic, templates, and static files are modular.
 
-Jinja2 template inheritance for consistent UI design.
+2. Jinja2 template inheritance for consistent UI design.
 
-Lightweight database integration (SQLite) with Python abstraction.
+3. Lightweight database integration (SQLite) with Python abstraction.
 
-Session-based shopping cart management.
+4. Session-based shopping cart management.
 
-Extendable chatbot integration for customer assistance.
+5. Extendable chatbot integration for customer assistance.
 
 ## Installation
 ```bash
 git clone https://github.com/Herr-Mahin/Ecommerce-flask-app.git
+```
+```bash
 cd Ecommerce-flask-app
+```
+```bash
 python3 -m venv venv
+```
+```bash
 source venv/bin/activate   # On Windows: venv\Scripts\activate
+```
+```bash
 pip install flask
+```
+```bash
 python main.py
 ```
